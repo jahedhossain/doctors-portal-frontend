@@ -1,0 +1,61 @@
+.RecentAppointment {
+    padding: 25px 0;
+    box-shadow: 0px 0px 6px 1px #e0d4d4;
+    margin-top: 20px;
+}
+.RecentAppointment .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-items: center;
+    padding-bottom: 11px;
+}
+
+.RecentAppointment .top select {
+    width: 110px;
+}
+.RecentAppointment svg {
+    color: #fff;
+    background: #fda006;
+    font-size: 19px;
+    display: inline-block;
+    padding: 6px;
+    box-sizing: content-box;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.RecentAppointment tbody td {
+    padding: 0;
+    margin-bottom: 0;
+    vertical-align: inherit;
+}
+.RecentAppointment button .editIcon{
+    padding: 5px;
+    margin-top: -11px;
+    color: #fff;
+}
+.RecentAppointment .action{
+    background: linear-gradient( #19D3AF, #0FCFEA);
+}
+.RecentAppointment .edit {
+    position: relative;
+    display: flex;
+    width: 102px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+.RecentAppointment b.editIcon {
+    position: absolute;
+    top: 4px;
+    left: 97px;
+}
+.RecentAppointment .pending{
+    background: #3da5f4;
+}
+.RecentAppointment .approved{
+    background: #00c689;
+}
+.RecentAppointment .cancelled{
+    background: #f1536e;
+}

@@ -1,0 +1,13 @@
+.Appointments .top {
+  display: flex;
+  justify-content: space-between;
+}
+.Appointments tbody .custom-select {
+  background: linear-gradient(#19d3af, #0fcfea);
+  color: #fff;
+  width: 124px;
+}
+.Appointments tbody .custom-select option {
+  background: linear-gradient(#19d3af, #0fcfea);
+  color: black;
+}

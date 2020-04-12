@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  padding: 27px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.content p {
+  margin: 0;
+}
+
+.content strong {
+  padding-right: 13px;
+  font-size: 36px;
+}
+.pedding {
+  background: #f1536e;
+}
+.today {
+  background: #3da5f4;
+}
+.total {
+  background: #00c689;
+}
+.patients {
+  background: #fda006;
+}

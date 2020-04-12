@@ -1,0 +1,23 @@
+.BookingForm input {
+    margin: 7px 0;
+}
+.AppointmentBooking .BookingForm select {
+    padding: 5px 22px;
+    display: flex;
+    justify-content: flex-start;
+}
+ .BookingForm {
+    position: absolute;
+    width: 50%;
+    min-height: 75%;
+    top: 0;
+    left: 21%;
+    background: white;
+    padding: 50px 30px;
+    border: 1px solid #f1eee0;
+    box-shadow: 1px 20px 3px #e0dddd;
+}
+.BookingForm span {
+    color: red;
+    display: flex;
+}
